@@ -1,0 +1,6 @@
+{
+  "name": "Anmol Cosmetics",
+  "description": "Mau's most premium digital cosmetics store featuring an AI Beauty Coach, AI Skin Analyzer, Local Mau Delivery, and live WhatsApp ordering.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

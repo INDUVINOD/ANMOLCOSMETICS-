@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
+@import "tailwindcss";
+
+html {
+  font-size: 17.5px !important; /* Promotes excellent readability */
+}
+
+html, body {
+  background-color: #0B1020 !important;
+  overflow-x: hidden !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 18.5px !important;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", "Noto Sans Devanagari", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", "Hind", ui-serif, Georgia, serif;
+  
+  --color-slate-950: #0B1020;
+  --color-slate-900: #151B2F;
+  --color-slate-850: #1E2741;
+  --color-slate-800: #253152;
+  --color-slate-750: #2E3C63;
+  --color-slate-700: #3C4E7E;
+  --color-slate-600: #556BAB;
+  
+  --color-amber-400: #E6C663;
+  --color-amber-500: #D4AF37;
+  --color-amber-600: #B89626;
+  --color-amber-700: #9C7E1C;
+}
+
+/* Custom scrollbar to keep layout clean and premium */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(11, 16, 32, 0.6);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(212, 175, 55, 0.3);
+  border-radius: 999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(212, 175, 55, 0.5);
+}
+
+/* Hide default browser scrollbars for category selectors */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
